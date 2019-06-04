@@ -1,6 +1,6 @@
 {
   "name": "achika",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Test Art-Net connections by blinking fixtures",
   "main": "index.js",
   "bin": {
