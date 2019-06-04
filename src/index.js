@@ -1,13 +1,13 @@
 
-import meow from 'meow'
-import {chika} from './chika'
+const meow = require('meow')
+const chika =  require('./chika')
 
 const cli = meow(`
 Usage:
   $ achika -h [HOST IP] [ADDRESS1] [ADDRESS2] [...]
 
   --version, -v Show version
-  --host, -r [HOST IP] Set host IP
+  --host, -h [HOST IP] Set host IP
   --universe, -u [UNIVERSE] Set universe
   --interval, -i  [INTERVAL SEC] Set interval in seconds
   --max [MAX VALUE] / --min [MIN VALUE] Set max/min value

@@ -1,9 +1,9 @@
 
-import chalk from 'chalk'
-import consola from 'consola'
-import ArtNet from 'artnet'
+const chalk = require('chalk')
+const consola = require('consola');
+const ArtNet = require('artnet')
 
-export function chika({
+function chika({
   host,
   universe = 1,
   interval,
@@ -48,8 +48,8 @@ export function chika({
 
         if(a.match(/^([0-9]+)\-([0-9]+)$/)) {
 
-          const startAddr: number = Math.min(+RegExp.$1, +RegExp.$2)
-          const endAddr: number = Math.max(+RegExp.$1, +RegExp.$2)
+          const startAddr = Math.min(+RegExp.$1, +RegExp.$2)
+          const endAddr = Math.max(+RegExp.$1, +RegExp.$2)
 
           for(let i = startAddr; i <= endAddr; i++) {
             addrs.push(i)
@@ -71,8 +71,8 @@ export function chika({
   consola.log(`Universe: ${universe}`)
   consola.log(`Host: ${host}`)
 
-  let vs: boolean[] = new Array(addrs.length).fill(false)
-  let csr: number = 0
+  let vs = new Array(addrs.length).fill(false)
+  let csr = 0
 
   setInterval(() => {
 
@@ -96,3 +96,4 @@ export function chika({
 
 }
 
+module.exports = chika;

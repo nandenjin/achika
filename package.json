@@ -6,10 +6,6 @@
   "bin": {
     "achika": "lib/index.js"
   },
-  "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
-  },
   "repository": "https://github.com/nandenjin/achika",
   "author": "Kazumi Inada<hello@nandenjin.com>",
   "license": "MIT",
@@ -19,8 +15,5 @@
     "consola": "^2.6.2",
     "meow": "^5.0.0"
   },
-  "devDependencies": {
-    "@types/node": "^12.0.4",
-    "typescript": "^3.5.1"
-  }
+  "devDependencies": {}
 }
