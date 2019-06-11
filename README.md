@@ -1,4 +1,9 @@
 # 💡A-Chika
+[![npm version](https://badge.fury.io/js/achika.svg)](https://badge.fury.io/js/achika)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8f649adb46919e5838fa/maintainability)](https://codeclimate.com/github/nandenjin/achika/maintainability)
+
+
 Test tool for Art-Net receivers.
 
 ## Features
