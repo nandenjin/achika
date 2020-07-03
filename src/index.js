@@ -30,23 +30,23 @@ Usage:
       universe: {
         type: 'string',
         alias: 'u',
-        default: 1,
+        default: '1',
       },
 
       interval: {
         type: 'string',
         alias: 'i',
-        default: 1,
+        default: '1',
       },
 
       max: {
         type: 'string',
-        default: 255,
+        default: '255',
       },
 
       min: {
         type: 'string',
-        default: 0,
+        default: '0',
       },
 
       sendAll: {
@@ -56,7 +56,7 @@ Usage:
 
       refreshInterval: {
         type: 'string',
-        default: 1000 / 60,
+        default: 1000 / 60 + '',
       },
     },
   }
