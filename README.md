@@ -1,8 +1,9 @@
 # 💡A-Chika
-[![npm version](https://badge.fury.io/js/achika.svg)](https://badge.fury.io/js/achika)
-[![Dependencies](https://david-dm.org/nandenjin/achika.svg)](https://david-dm.org/nandenjin/achika)
-[![Maintainability](https://api.codeclimate.com/v1/badges/8f649adb46919e5838fa/maintainability)](https://codeclimate.com/github/nandenjin/achika/maintainability)
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+![npm version](https://img.shields.io/npm/v/achika?style=flat-square)
+[![Dependencies](https://img.shields.io/david/nandenjin/achika?style=flat-square)](https://david-dm.org/nandenjin/achika)
+[![devDependencies](https://img.shields.io/david/dev/nandenjin/achika?style=flat-square)](https://david-dm.org/nandenjin/achika)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8f649adb46919e5838fa/maintainability?style=flat-square)](https://codeclimate.com/github/nandenjin/achika/maintainability)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
 
 Test tool for Art-Net receivers.
