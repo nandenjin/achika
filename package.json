@@ -10,7 +10,8 @@
   "author": "Kazumi Inada<hello@nandenjin.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --ext js ."
+    "lint": "eslint --ext js .",
+    "release": "shipjs prepare"
   },
   "dependencies": {
     "artnet": "^1.4.0",
@@ -22,6 +23,7 @@
     "eslint": "^7.3.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "shipjs": "0.22.0"
   }
 }
