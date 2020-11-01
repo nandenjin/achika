@@ -33,7 +33,7 @@ jobs:
           SLACK_INCOMING_HOOK: ${{ secrets.SLACK_INCOMING_HOOK }}
 
   create_done_comment:
-    if: success()
+    if: github.event_name == 'issue_comment' && success()
     needs: manual_prepare
     runs-on: ubuntu-latest
     steps:
@@ -44,7 +44,7 @@ jobs:
           args: comment "@${{ github.actor }} `shipjs prepare` done"
 
   create_fail_comment:
-    if: cancelled() || failure()
+    if: github.event_name == 'issue_comment' && (cancelled() || failure())
     needs: manual_prepare
     runs-on: ubuntu-latest
     steps:
