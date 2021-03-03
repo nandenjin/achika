@@ -8,3 +8,6 @@ updates:
       - "nandenjin"
     reviewers:
       - "nandenjin"
+    labels:
+      - "dependency"
+      - "automerge"
