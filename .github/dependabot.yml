@@ -6,8 +6,6 @@ updates:
       interval: "monthly"
     assignees:
       - "nandenjin"
-    reviewers:
-      - "nandenjin"
     labels:
       - "dependencies"
       - "automerge"
