@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "artnet": "^1.4.0",
-    "chalk": "^4",
+    "chalk": "^5",
     "consola": "^2.6.2",
     "meow": "^10"
   },
