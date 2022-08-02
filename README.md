@@ -1,14 +1,13 @@
 # 💡A-Chika
+
 ![npm version](https://img.shields.io/npm/v/achika?style=flat-square)
-[![Dependencies](https://img.shields.io/david/nandenjin/achika?style=flat-square)](https://david-dm.org/nandenjin/achika)
-[![devDependencies](https://img.shields.io/david/dev/nandenjin/achika?style=flat-square)](https://david-dm.org/nandenjin/achika)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8f649adb46919e5838fa/maintainability?style=flat-square)](https://codeclimate.com/github/nandenjin/achika/maintainability)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-
 
 Test tool for Art-Net receivers.
 
 ## Features
+
 - Transmit Art-Net blink signals from command line
 - Options
   - Universe
@@ -16,6 +15,7 @@ Test tool for Art-Net receivers.
   - Blink interval
 
 ## Install & Quick use
+
 ```
 $ npm install -g achika
 $ achika 1
@@ -26,6 +26,7 @@ $ npx achika 1
 ```
 
 ## Usage
+
 ```
 Usage:
   $ achika -h [HOST IP] [ADDRESS1] [ADDRESS2] [...]
@@ -38,9 +39,11 @@ Usage:
 ```
 
 ## Contributing
+
 Issues and PRs for adding features, bug fix or refactoring are welcome. Please do not include built files in your PRs.
 
 ## Naming
+
 Named from `L-Chika（Lチカ）`, the Japanese word of simple "Hello World" in electric circuits development, just blink a LED.
 
 In this case `L` comes from "LED", so `A` of "A-Chika" comes from "Art-Net".
