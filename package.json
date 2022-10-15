@@ -17,7 +17,7 @@
     "artnet": "^1.4.0",
     "chalk": "^5",
     "consola": "^2.6.2",
-    "meow": "^10"
+    "meow": "^11.0.0"
   },
   "devDependencies": {
     "eslint": "8.25.0",
