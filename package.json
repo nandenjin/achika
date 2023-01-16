@@ -24,6 +24,6 @@
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-prettier": "4.2.1",
     "prettier": "2.8.2",
-    "shipjs": "0.25.0"
+    "shipjs": "0.25.1"
   }
 }
