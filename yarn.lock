@@ -1667,19 +1667,19 @@ shell-quote@^1.8.2:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.3.tgz#55e40ef33cf5c689902353a3d8cd1a6725f08b4b"
   integrity sha512-ObmnIF4hXNg1BqhnHmgbDETF8dLPCggZWBjkQfhZpbszZnYur5DUljTcCHii5LC3J5E0yeO/1LIMyH+UvHQgyw==
 
-shipjs-lib@0.28.3:
-  version "0.28.3"
-  resolved "https://registry.yarnpkg.com/shipjs-lib/-/shipjs-lib-0.28.3.tgz#68accf4b00c7964ce558c5eafb632fb64f24d019"
-  integrity sha512-AMgTdZ48PJnQZ09U23m0i+t2fvP1eL61dXcuj+q9k6PB6sUhZTHLvLgyC5IiO8rC0lYNEYHM4WjPZpNW3KuFwg==
+shipjs-lib@0.28.4:
+  version "0.28.4"
+  resolved "https://registry.yarnpkg.com/shipjs-lib/-/shipjs-lib-0.28.4.tgz#3d7d79cdc09facc27f9c433e72abd26e8c3e6841"
+  integrity sha512-qUjNejKmBonxPUd4mu4tvcbqE0NSPeQyIkLLgqIyB2ExJX0LxX4rOTqEOu23HP48q8n31r+4LAym1KGzCFn3wQ==
   dependencies:
     deepmerge "^4.2.2"
     execa "^9.6.1"
     semver "7.7.1"
 
-shipjs@0.28.3:
-  version "0.28.3"
-  resolved "https://registry.yarnpkg.com/shipjs/-/shipjs-0.28.3.tgz#ffce848597979169fdaa5afe49dcb9cf672db2e1"
-  integrity sha512-+u4dhQmP2zrK98f7dyTPLpzqLS8BwypJ86iCXQPYjEOzRxXzo2enQAyzUQ1wnDTZlm/dADg02716er4ZIk4KPA==
+shipjs@0.28.4:
+  version "0.28.4"
+  resolved "https://registry.yarnpkg.com/shipjs/-/shipjs-0.28.4.tgz#cb402363b5c3d945e413930123ff8247c44e7efb"
+  integrity sha512-DV6N+J3KgtRbTM6qHgweZz1ne73wcGhRZQGCrDDxgNE2UB8vxjqEQ3MyYY8axExkZN9YC9Vut+g2+EGINggZyA==
   dependencies:
     "@octokit/rest" "^21.1.1"
     "@slack/webhook" "^7.0.4"
@@ -1699,7 +1699,7 @@ shipjs@0.28.3:
     prettier "^3.5.3"
     serialize-javascript "^6.0.2"
     shell-quote "^1.8.2"
-    shipjs-lib "0.28.3"
+    shipjs-lib "0.28.4"
     temp-write "^6.0.0"
     tempfile "^5.0.0"
 
